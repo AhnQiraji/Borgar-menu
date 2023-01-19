@@ -8,15 +8,15 @@ html {
 }
 
 main {
-    width: 10vmin;
+    height: 10vmin;
     position: relative;
-    left: calc(50vw - 5vmin);
-    top: calc(50vh - 30vmin);
+    left: calc(50vw - 30vmin);
+    top: calc(50vh - 5vmin);
     display: flex;
-    flex-direction: column;
 }
 
 .menu {
+    display: flex;
     visibility: visible;
     transition-duration: .25s;
 }
@@ -25,7 +25,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vmin;
+    width: 10vmin;
     padding: 1vmin;
     background-color: #eea710;
 }
